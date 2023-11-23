@@ -1,59 +1,68 @@
 import React from 'react';
-import TitleWithDescription from '../components/titleWithDescription';
+import { TitleWithBars } from '@/app/components/titleWithDescription/index'
+import BarDefault from '../components/BarDefault';
 
 export default function Home() {
   const lorem = ' Lorem ipsum dolor sit, amet consectetur adipisicing elit.Recusandae sint cupiditate esse deleniti reiciendis ab quidem sapiente repellat, ex ut quam doloremque eius id voluptatem ? Porro velit officiis aut cum.';
 
   return (
     <main className='flex min-h-screen flex-col items-center justify-start'>
-      <section className='w-full min-h-[40rem] bg-[#0B1B2B] flex items-center justify-center '>
-        <div className='w-[1140px] bg-red-600 flex items-center justify-center'>
-          <div className=' min-h-[40rem] w-[36.25rem] flex flex-col gap-3 justify-center'>
+      <header className='w-full min-h-[40rem] bg-[#0B1B2B] flex lg:flex-row items-center justify-center flex-col'>
+        <div className='w-full lg:w-[1024px] flex items-center justify-center flex-wrap lg:flex-nowrap'>
+          <div className=' min-h-[40rem] w-full lg:w-[36.25rem] flex flex-col gap-3 justify-center'>
             <h1 className="w-full text-white text-4xl font-bold font-['Poppins'] leading-[65px]">Precisa comprar seu TCC?</h1>
             <h2 className="w-full  text-[#3294F8] text-4xl font-bold font-['Poppins'] leading-[65px]">Conte com a nossa ajuda!</h2>
+
             <div className='h-3 flex gap-5 my-4'>
-              <div className='h-3 w-3 bg-[#3294F8] rounded-md' />
-              <div className='h-3 w-5 bg-[#3294F8] rounded-md' />
-              <div className='h-3 w-28 bg-[#3294F8] rounded-md' />
+              <BarDefault width={'w-3'} />
+              <BarDefault width={'w-5'} />
+              <BarDefault width={'w-28'}/>
             </div>
             <p className='text-white text-base font-bold leading-6'>{lorem}</p>
             <button className=' bg-[#2FB337] w-full py-8 mt-28 rounded-xl'>
               <span className='text-white font-bold leading-10'>Solicite Orçamento Pelo WhatsApp</span>
             </button>
           </div>
-          <div className=' h-[40rem] w-[36.25rem] bg-green-950'>
-
+          <div className=' h-[40rem] lg:w-[36.25rem] w-full'>
           </div>
         </div>
-      </section>
+      </header>
       <section className=' w-full flex items-center justify-center gap-3 py-10 flex-col p-4'>
-        <TitleWithDescription title='como funciona' paragraph='atendimento de excelência que vai superar suas expectativas' />
-
-        <section className='w-[1140px] bg-red-700 min-h-[25rem] p-4 grid grid-cols-3 justify-items-stretch gap-3 mb-2'>
-          <div className=' col-start-1 col-end-2 w-full bg-yellow-400' />
-          <div className=' col-start-2 col-end-3 w-full bg-blue-400' />
-          <div className=' col-start-3 col-end-4 w-full bg-gray-400' />
+        <TitleWithBars.Root>
+          <TitleWithBars.Bar />
+          <TitleWithBars.Title text='Como funciona' fontSize='text-2xl' />
+          <TitleWithBars.Bar />
+        </TitleWithBars.Root>
+        <TitleWithBars.Paragraph text='atendimento de excelência que vai superar suas expectativas'fontSize='text-2xl' />
+        <section className='w-full lg:w-[1024px] bg-red-700 min-h-[25rem] p-4 flex gap-3 mb-2 flex-wrap items-center justify-between'>
+          <div className=' h-[372px] w-[250px] bg-yellow-400' />
+          <div className=' h-[372px] w-[250px] bg-blue-400' />
+          <div className=' h-[372px] w-[250px] bg-gray-400' />
         </section>
       </section>
-      <section className='w-[1140px] grid grid-cols-2 h-[800px] gap-3 content-center justify-items-stretch'>
-        <div className='bg-green-300 p-8 w-[570px]'>
-          <h1>teste</h1>
+      <section className='lg:w-[1024px] w-full flex flex-wrap gap-3 justify-between items-center h-[518px]'>
+        <div className='bg-green-300 p-8 h-[518px] w-[500px]'>
         </div>
-        <div className='bg-green-300 p-8 w-[570px] '>
-          <TitleWithDescription title='Trabalhos de conclusão de curso' paragraph='Trabalhos Acadêmicos
-para todos os níveis'/>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi placeat blanditiis aut omnis, earum laboriosam necessitatibus atque eum officia ea excepturi! Facere quae, veritatis officia accusamus perferendis inventore modi et.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi placeat blanditiis aut omnis, earum laboriosam necessitatibus atque eum officia ea excepturi! Facere quae, veritatis officia accusamus perferendis inventore modi et.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi placeat blanditiis aut omnis, earum laboriosam necessitatibus atque eum officia ea excepturi! Facere quae, veritatis officia accusamus perferendis inventore modi et.</p>
+        <div className='bg-green-300 p-8 w-[500px] h-[518px] '>
+          <TitleWithBars.Root>
+            <TitleWithBars.Bar />
+            <TitleWithBars.Title text='Trabalhos de conclusão de curso' fontSize='text-2xl' />
+            <TitleWithBars.Bar />
+          </TitleWithBars.Root>
+          <TitleWithBars.Paragraph text='atendimento de excelência que vai superar suas expectativas' fontSize='text-lg'/>
+          <p className='text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi placeat blanditiis aut omnis, earum laboriosam necessitatibus atque eum officia ea excepturi! Facere quae, veritatis officia accusamus perferendis inventore modi et.</p>
         </div>
       </section>
-      <section className='bg-gray-400 w-[1140px] flex flex-col items-center'>
-        <TitleWithDescription title=' Nosso diferencial ' paragraph='Trabalhos Acadêmicos
-para todos os níveis'/>
-        <section className='w-[1140px] bg-red-700 min-h-[25rem] p-4 grid grid-cols-3 justify-items-stretch gap-3 mb-2'>
-          <div className=' col-start-1 col-end-2 w-full bg-yellow-400' />
-          <div className=' col-start-2 col-end-3 w-full bg-blue-400' />
-          <div className=' col-start-3 col-end-4 w-full bg-gray-400' />
+      <section className='bg-gray-400 w-[1024px] flex flex-col items-center'>
+        <TitleWithBars.Root>
+          <TitleWithBars.Bar />
+          <TitleWithBars.Title text='nosso diferencial' />
+          <TitleWithBars.Bar />
+        </TitleWithBars.Root>
+        <section className='w-full lg:w-[1024px] bg-red-700 min-h-[25rem] p-4 flex gap-3 mb-2 flex-wrap items-center justify-between'>
+          <div className=' h-[372px] w-[250px] bg-yellow-400' />
+          <div className=' h-[372px] w-[250px] bg-blue-400' />
+          <div className=' h-[372px] w-[250px] bg-gray-400' />
         </section>
       </section>
       <footer className='w-full min-h-[1339.47px] bg-[#0B1B2B] flex items-center justify-center '></footer>
