@@ -131,13 +131,10 @@ export default function Home() {
 					/>
           <div className="flex flex-col items-center justify-center p-3">
             <h1 className="w-full text-white text-4xl font-bold font-['Poppins'] leading-[65px]">
-							{'Quem somos'}
+							{Data.contentFooter.title}
 						</h1>
-            <p className="text-white text-base font-bold leading-6">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
-              voluptates dolorem quas facilis quos saepe repellat laudantium rem
-              eaque explicabo mollitia molestias consequuntur est error
-              doloribus , impedit, odio amet eligendi.
+            <p className="text-white text-base font-semibold leading-6">
+             {Data.contentFooter.paragraph}
             </p>
           </div>
         </div>

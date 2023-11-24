@@ -1,19 +1,41 @@
 {
   "header": {
-    "title": "Precisa comprar seu TCC?",
+    "title": "Está buscando assistência acadêmica?",
     "subtitle": "Conte com a nossa ajuda!",
-    "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Recusandae sint cupiditate esse deleniti reiciendis ab quidem sapiente repellat, ex ut quam doloremque eius id voluptatem ? Porro velit officiis aut cum."
+    "paragraph": 
+    "Procurando suporte para trabalhos acadêmicos? Clique no botão abaixo, contate-nos via WhatsApp. Estamos prontos para ajudar e melhorar seu texto acadêmico de maneira ágil e eficaz."
   },
   "howItWorks": {
     "title": "Como funciona",
-    "paragraph": "atendimento de excelência que vai superar suas expectativas"
+    "paragraph": ""
   },
   "iconSection": [
     {
       "icon": "icon3.svg",
-      "title": "Comece sua conversa!",
+      "title": "Passo 1",
       "paragraphs": [
-        "Nossa equipe está pronta para te atender"
+        "Você solicita um orçamento gratuitamente."
+      ]
+    },
+    {
+      "icon": "alert.svg",
+      "title": "Passo 2",
+      "paragraphs": [
+        "Entramos em contato com você com urgência."
+      ]
+    },
+    {
+      "icon": "cog.svg",
+      "title": "Passo 3",
+      "paragraphs": [
+        "Após sua aprovação, começamos a desenvolver seu trabalho."
+      ]
+    },
+    {
+      "icon": "icon3.svg",
+      "title": "Sem plagio",
+      "paragraphs": [
+        "Você solicita um orçamento gratuitamente."
       ]
     },
     {
@@ -60,5 +82,9 @@
   },
   "contentSection": {
     "title": "Nosso diferencial"
+  },
+  "contentFooter": {
+    "title": "Quem sou eu?",
+    "paragraph": "Mateus Couto, mestre em Física com mais de 4 anos de experiência, dedica-se a uma variedade de projetos acadêmicos. Sua expertise abrange diversas subáreas, resultando em centenas de clientes satisfeitos. Sua abordagem acessível e comprometida o destaca como um profissional valioso na pesquisa."
   }
 }
