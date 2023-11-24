@@ -8,6 +8,7 @@ import Data from '@/app/service/data.json'
 export default function Home() {
 	return (
     <main className="flex min-h-screen flex-col items-center justify-start gap-2">
+      
       <header className="w-full min-h-[40rem] bg-[#0B1B2B] flex lg:flex-row items-center justify-center flex-col sm:p-0 px-5 pb-4">
         <div className="w-full lg:w-[1024px] flex items-center justify-center flex-wrap lg:flex-nowrap gap-3">
           <div className=" min-h-[40rem] w-full lg:min-w-[36.25rem] flex flex-col gap-3 justify-center sm:ml-auto">
@@ -131,17 +132,17 @@ export default function Home() {
 					/>
           <div className="flex flex-col items-center justify-center p-3">
             <h1 className="w-full text-white text-4xl font-bold font-['Poppins'] leading-[65px]">
-							{'Quem somos'}
+							{Data.contentFooter.title}
 						</h1>
-            <p className="text-white text-base font-bold leading-6">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
-              voluptates dolorem quas facilis quos saepe repellat laudantium rem
-              eaque explicabo mollitia molestias consequuntur est error
-              doloribus , impedit, odio amet eligendi.
+            <p className="text-white text-base font-semibold leading-6">
+             {Data.contentFooter.paragraph}
             </p>
           </div>
         </div>
       </footer>
+      <ButtonWhatsapp.RootRelative>
+        <ButtonWhatsapp.icon/>
+      </ButtonWhatsapp.RootRelative>
 		</main>
   );
 }
