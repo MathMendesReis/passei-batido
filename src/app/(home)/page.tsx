@@ -8,6 +8,7 @@ import Data from '@/app/service/data.json'
 export default function Home() {
 	return (
     <main className="flex min-h-screen flex-col items-center justify-start gap-2">
+      
       <header className="w-full min-h-[40rem] bg-[#0B1B2B] flex lg:flex-row items-center justify-center flex-col sm:p-0 px-5 pb-4">
         <div className="w-full lg:w-[1024px] flex items-center justify-center flex-wrap lg:flex-nowrap gap-3">
           <div className=" min-h-[40rem] w-full lg:min-w-[36.25rem] flex flex-col gap-3 justify-center sm:ml-auto">
@@ -139,6 +140,9 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <ButtonWhatsapp.RootRelative>
+        <ButtonWhatsapp.icon/>
+      </ButtonWhatsapp.RootRelative>
 		</main>
   );
 }
