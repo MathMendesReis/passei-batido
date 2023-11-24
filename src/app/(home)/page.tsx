@@ -12,10 +12,10 @@ export default function Home() {
       <header className="w-full min-h-[40rem] bg-[#0B1B2B] flex lg:flex-row items-center justify-center flex-col sm:p-0 px-5 pb-4">
         <div className="w-full lg:w-[1024px] flex items-center justify-center flex-wrap lg:flex-nowrap gap-3">
           <div className=" min-h-[40rem] w-full lg:min-w-[36.25rem] flex flex-col gap-3 justify-center sm:ml-auto">
-            <h1 className="w-full text-white text-4xl font-bold font-['Poppins'] leading-[65px]">
+            <h1 className="w-full text-white text-3xl sm:text-4xl font-bold font-['Poppins'] leading-[65px]">
 							{Data.header.title}
 						</h1>
-            <h2 className="w-full  text-[#3294F8] text-4xl font-bold font-['Poppins'] leading-[65px]">
+            <h2 className="w-full  text-[#3294F8] text-2xl sm:text-3xl font-bold font-['Poppins'] leading-[65px]">
 							{Data.header.subtitle}
 						</h2>
             <div className="h-3 flex gap-5 my-4">
