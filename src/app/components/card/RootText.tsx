@@ -1,11 +1,12 @@
 import React from 'react'
 
-interface Props {
+type Props = {
   children: React.ReactNode
-}
-export default function RootText({children}:Props) {
+};
+export default function RootText({children}: Props) {
   return (
     <div className="w-full h-[16.875rem] flex-col justify-center items-start flex">
       {children}
-    </div>)
+    </div>
+	)
 }
