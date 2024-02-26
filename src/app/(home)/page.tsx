@@ -37,12 +37,12 @@ export default function Home() {
               </ButtonWhatsapp.Root>
             </div>
             <Image
-              src={"https://via.placeholder.com/528x435"}
+              src={"/thumbnail.jpeg"}
               width={528}
               height={435}
               quality={100}
               alt=""
-              className=""
+              className="rounded-md shadow-sm"
             />
           </div>
         </header>
@@ -89,11 +89,12 @@ export default function Home() {
         </section>
         <section className="lg:w-[1024px] w-full flex flex-wrap gap-3 sm:justify-between justify-center items-center min-h-[100px] ">
           <Image
-            src={"https://via.placeholder.com/550x312"}
+            src={"/thumbnail2.jpeg"}
             width={500}
             height={500}
             quality={100}
             alt=""
+            className="rounded-md shadow-sm"
           />
           <div className=" p-8 w-[500px] min-h-[300px] ">
             <TitleWithBars.Box>
@@ -140,8 +141,17 @@ export default function Home() {
               ))}
           </section>
         </section>
+        <TitleWithBars.Root>
+          <TitleWithBars.Bar />
+          <Text
+            element="h1"
+            content={'Nossos trabalhos'}
+            color="secondary"
+          />
+          <TitleWithBars.Bar />
+        </TitleWithBars.Root>
         <ul className="flex items-center justify-start gap-5 min-h-[350px] overflow-x-auto max-w-[1400px] w-full pl-3 invisible-scrollbar">
-          {arquvivos.pdfs.map(({ id, name, url }) => {
+          {arquvivos.pdfs.map(({ id, name, url, img }) => {
             return (
               <>
                 <li
@@ -152,7 +162,7 @@ export default function Home() {
                     <Link href={url} target="_blank">
                       <div className="-mb-3 rounded-lg">
                         <Image
-                          src={"https://via.placeholder.com/550x312"}
+                          src={img}
                           width={300}
                           height={400}
                           quality={100}
@@ -160,7 +170,7 @@ export default function Home() {
                           className="rounded-lg"
                         />
                       </div>
-                      <div className=" h-28 bg-gray-50 w-[100%] max-w-[300px] rounded-lg absolute shadow-2xl flex items-center justify-center">
+                      <div className=" h-28 bg-slate-200 w-[100%] max-w-[300px] rounded-lg absolute flex items-center justify-center z-50 top-44">
                         <Text
                           element="h1"
                           content={name}

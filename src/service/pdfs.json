@@ -3,32 +3,38 @@
     {
       "id": "1",
       "name": "curriculo vitae",
-      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf"
+      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
+      "img": "/thumbnail.jpeg"
     },
     {
       "id": "2",
       "name": "desenvolvedor web",
-      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf"
+      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
+      "img": "/thumbnail.jpeg"
     },
     {
       "id": "3",
       "name": "desenvolvedor frontend",
-      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf"
+      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
+      "img": "/thumbnail.jpeg"
     },
     {
       "id": "4",
       "name": "desenvolvedor frontend",
-      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf"
+      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
+      "img": "/thumbnail.jpeg"
     },
     {
       "id": "5",
       "name": "desenvolvedor frontend",
-      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf"
+      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
+      "img": "/thumbnail.jpeg"
     },
     {
       "id": "6",
       "name": "desenvolvedor frontend",
-      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf"
+      "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
+      "img": "/thumbnail.jpeg"
     }
   ]
 }
