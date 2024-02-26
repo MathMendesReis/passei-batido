@@ -1,0 +1,75 @@
+{
+  "header": {
+    "title": "Está buscando assistência acadêmica?",
+    "subtitle": "Conte com a nossa ajuda!",
+    "paragraph": "Procurando suporte para trabalhos acadêmicos? Clique no botão abaixo, contate-nos via WhatsApp. Estamos prontos para ajudar e melhorar seu texto acadêmico de maneira ágil e eficaz."
+  },
+  "howItWorks": {
+    "title": "Como funciona",
+    "paragraph": ""
+  },
+  "iconSection": [
+    {
+      "icon": "icon3.svg",
+      "title": "Passo 1",
+      "paragraphs": ["Você solicita um orçamento gratuitamente."]
+    },
+    {
+      "icon": "alert.svg",
+      "title": "Passo 2",
+      "paragraphs": ["Entramos em contato com você com urgência."]
+    },
+    {
+      "icon": "cog.svg",
+      "title": "Passo 3",
+      "paragraphs": [
+        "Após sua aprovação, começamos a desenvolver seu trabalho."
+      ]
+    },
+    {
+      "icon": "icon3.svg",
+      "title": "Sem plagio",
+      "paragraphs": ["Você solicita um orçamento gratuitamente."]
+    },
+    {
+      "icon": "fileKey.svg",
+      "title": "Exclusivo",
+      "paragraphs": ["Trabalho elaborado do zero para você"]
+    },
+    {
+      "icon": "badgeCheck.svg",
+      "title": "Qualidade",
+      "paragraphs": ["Garantimos aprovação do seu trabalho"]
+    },
+    {
+      "icon": "clock.svg",
+      "title": "pontualidade",
+      "paragraphs": ["Entregamos seu trabalho exclusivo em 7 dias úteis"]
+    },
+    {
+      "icon": "mails.svg",
+      "title": "Atendimento vip",
+      "paragraphs": [
+        "Suporte pelo WhatsApp até a aprovação,contato direto com o Professor"
+      ]
+    },
+    {
+      "icon": "users.svg",
+      "title": "Equipe",
+      "paragraphs": ["Elaborado por professores qualificados"]
+    }
+  ],
+  "imageSection": {
+    "image": "alunoImg",
+    "title": "Trabalhos de conclusão de curso",
+    "subtitle": "atendimento de excelência que vai superar suas expectativas",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi placeat blanditiis aut omnis, earum laboriosam necessitatibus atque eum officia ea excepturi! Facere quae, veritatis officia accusamus perferendis inventore modi et."
+  },
+  "contentSection": {
+    "title": "Nosso diferencial"
+  },
+  "contentFooter": {
+    "title": "Quem sou eu?",
+    "paragraph": "Mateus Couto, mestre em Física com mais de 4 anos de experiência, dedica-se a uma variedade de projetos acadêmicos. Sua expertise abrange diversas subáreas, resultando em centenas de clientes satisfeitos. Sua abordagem acessível e comprometida o destaca como um profissional valioso na pesquisa."
+  }
+}
