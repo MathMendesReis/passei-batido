@@ -1,4 +1,4 @@
-// File: /home/matheus/Documentos/passei-batido/src/app/(home)/page.tsx
+// File: /home/maths/Documentos/frontend/passei-batido/src/app/(home)/page.tsx
 import * as entry from '../../../../src/app/(home)/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
