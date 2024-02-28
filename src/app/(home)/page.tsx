@@ -175,12 +175,6 @@ export default function Home() {
         </ul>
         <section className="w-full  bg-[#0B1B2B] flex items-center justify-center py-3 mb-9">
           <div className="w-full lg:w-[1024px]  min-h-[733px] flex sm:flex-nowrap flex-wrap">
-            {/* <Image
-              src="https://via.placeholder.com/550x733"
-              width={570}
-              height={733}
-              alt=""
-            /> */}
             <div className="flex flex-col items-center justify-center p-3 max-w-[400px] ">
               <h1 className="w-full text-white text-4xl font-bold font-['Poppins'] leading-[65px]">
                 {Data.contentFooter.title}

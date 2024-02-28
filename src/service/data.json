@@ -12,12 +12,16 @@
     {
       "icon": "icon3.svg",
       "title": "Passo 1",
-      "paragraphs": ["Você solicita um orçamento gratuitamente."]
+      "paragraphs": [
+        "Você solicita um orçamento gratuitamente."
+      ]
     },
     {
       "icon": "alert.svg",
       "title": "Passo 2",
-      "paragraphs": ["Entramos em contato com você com urgência."]
+      "paragraphs": [
+        "Entramos em contato com você com urgência."
+      ]
     },
     {
       "icon": "cog.svg",
@@ -29,22 +33,30 @@
     {
       "icon": "icon3.svg",
       "title": "Sem plagio",
-      "paragraphs": ["Você solicita um orçamento gratuitamente."]
+      "paragraphs": [
+        "Você solicita um orçamento gratuitamente."
+      ]
     },
     {
       "icon": "fileKey.svg",
       "title": "Exclusivo",
-      "paragraphs": ["Trabalho elaborado do zero para você"]
+      "paragraphs": [
+        "Trabalho elaborado do zero para você"
+      ]
     },
     {
       "icon": "badgeCheck.svg",
       "title": "Qualidade",
-      "paragraphs": ["Garantimos aprovação do seu trabalho"]
+      "paragraphs": [
+        "Garantimos aprovação do seu trabalho"
+      ]
     },
     {
       "icon": "clock.svg",
       "title": "pontualidade",
-      "paragraphs": ["Entregamos seu trabalho exclusivo em 7 dias úteis"]
+      "paragraphs": [
+        "Entregamos seu trabalho exclusivo em 7 dias úteis"
+      ]
     },
     {
       "icon": "mails.svg",
@@ -56,7 +68,9 @@
     {
       "icon": "users.svg",
       "title": "Equipe",
-      "paragraphs": ["Elaborado por professores qualificados"]
+      "paragraphs": [
+        "Elaborado por professores qualificados"
+      ]
     }
   ],
   "imageSection": {
@@ -70,6 +84,6 @@
   },
   "contentFooter": {
     "title": "Quem sou eu?",
-    "paragraph": "Mateus Couto, mestre em Física com mais de 4 anos de experiência, dedica-se a uma variedade de projetos acadêmicos. Sua expertise abrange diversas subáreas, resultando em centenas de clientes satisfeitos. Sua abordagem acessível e comprometida o destaca como um profissional valioso na pesquisa."
+    "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatum consequuntur cumque mollitia incidunt inventore corrupti reiciendis, vel unde eius libero illum, omnis nisi nemo distinctio similique doloribus doloremque deleniti!"
   }
 }
