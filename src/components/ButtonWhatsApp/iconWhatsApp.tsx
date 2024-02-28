@@ -1,6 +1,6 @@
 import React from "react";
 
-interface SvgComponentProps extends React.SVGProps<SVGSVGElement> { }
+interface SvgComponentProps extends React.SVGProps<SVGSVGElement> {}
 
 export default function IconWhatsApp({ ...props }: SvgComponentProps) {
   return (

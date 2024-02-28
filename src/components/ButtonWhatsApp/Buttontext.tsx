@@ -1,9 +1,14 @@
 import React from "react";
 
-export default function Buttontext() {
+interface ButtonTextProps {
+  text?: string;
+}
+export default function Buttontext({
+  text = "Solicite Orçamento Pelo WhatsAp",
+}: ButtonTextProps) {
   return (
-    <div className="w-[268.77px] h-[15px] text-center text-white/100 text-[15px] font-medium font-['Kumbh Sans'] leading-[15px] tracking-tight">
-      Solicite Orçamento Pelo WhatsAp
-    </div>
+    <span className="w-[268.77px] h-[15px] text-center text-white/100 text-[15px] font-medium font-['Kumbh Sans'] leading-[15px] tracking-tight">
+      {text}
+    </span>
   );
 }

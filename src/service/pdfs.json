@@ -2,37 +2,37 @@
   "pdfs": [
     {
       "id": "1",
-      "name": "curriculo vitae",
+      "name": "exemplo de pdf",
       "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
       "img": "/thumbnail.jpeg"
     },
     {
-      "id": "2",
-      "name": "desenvolvedor web",
+      "id": "1",
+      "name": "exemplo de pdf",
       "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
       "img": "/thumbnail.jpeg"
     },
     {
-      "id": "3",
-      "name": "desenvolvedor frontend",
+      "id": "1",
+      "name": "exemplo de pdf",
       "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
       "img": "/thumbnail.jpeg"
     },
     {
-      "id": "4",
-      "name": "desenvolvedor frontend",
+      "id": "1",
+      "name": "exemplo de pdf",
       "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
       "img": "/thumbnail.jpeg"
     },
     {
-      "id": "5",
-      "name": "desenvolvedor frontend",
+      "id": "1",
+      "name": "exemplo de pdf",
       "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
       "img": "/thumbnail.jpeg"
     },
     {
-      "id": "6",
-      "name": "desenvolvedor frontend",
+      "id": "1",
+      "name": "exemplo de pdf",
       "url": "/pdfs/AnalistaDesenvolvedorSistemas.pdf",
       "img": "/thumbnail.jpeg"
     }
